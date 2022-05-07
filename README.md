@@ -19,4 +19,4 @@ Search is doen entitrely using pandas filtering.
 
 This bot is hosted on Repl.it
 
-![screenshot](Screenshot\ from\ 2022-05-07\ 12-16-56.png)
+![screenshot](screen2)
