@@ -83,7 +83,7 @@ async def showMyThread(ctx,sub):
         await ctx.send("Enter exact CPU name")
         return
     plt.hist(DF['threadMark'])
-    plt.axvline(cpu['treadMark'].loc[cpu.index[0]], color='k', linestyle='dotted', linewidth=5)
+    plt.axvline(cpu['threadMark'].loc[cpu.index[0]], color='k', linestyle='dotted', linewidth=5)
     plt.savefig("temp.png")
     plt.close()
     image = discord.File("temp.png")
