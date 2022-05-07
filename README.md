@@ -14,3 +14,5 @@ The bot has three commands:
 
 Plots are generated using matplotlib and pandas
 Search is doen entitrely using pandas filtering.
+
+[screenshot]('Screenshot.png')
